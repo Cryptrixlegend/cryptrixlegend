@@ -1,13 +1,13 @@
-// Loader will show for exactly 3 seconds, then fade out
 window.addEventListener('load', () => {
   const loader = document.getElementById('loader');
 
+  // 3 seconds delay
   setTimeout(() => {
-    loader.style.transition = 'opacity 0.5s'; // smooth fade
-    loader.style.opacity = 0;
+    loader.style.opacity = 0; // start fade out
 
+    // After fade completes, remove loader from DOM
     setTimeout(() => {
-      loader.style.display = 'none'; // remove loader from page
-    }, 500); // wait for fade out
+      loader.style.display = 'none';
+    }, 500); // fade duration matches CSS transition
   }, 3000); // 3 seconds
 });
