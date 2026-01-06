@@ -43,3 +43,4 @@ window.addEventListener('resize', () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
+<script src="time.js"></script>
