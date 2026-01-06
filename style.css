@@ -115,3 +115,36 @@ ul li {
   margin: 1rem 0;
   font-size: 1.2rem;
 }
+
+/* 🎄 Christmas Lights */
+#christmas-lights {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background: #08112a; /* Dark background so lights pop */
+  position: relative;
+  z-index: 1001;
+}
+
+.light {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #fff;
+  animation: blink 1.5s infinite alternate;
+}
+
+.light.red { background: #ff0000; }
+.light.green { background: #00ff00; }
+.light.yellow { background: #ffff00; }
+.light.blue { background: #00ffff; }
+.light.pink { background: #ff00ff; }
+.light.orange { background: #ff9900; }
+.light.purple { background: #9900ff; }
+
+@keyframes blink {
+  0% { opacity: 0.3; transform: scale(1);}
+  50% { opacity: 1; transform: scale(1.3);}
+  100% { opacity: 0.3; transform: scale(1);}
+}
