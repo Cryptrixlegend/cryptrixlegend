@@ -1,70 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CryptrixLegend | Home</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptrixLegend | Gaming</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-  <!-- 🎄 Christmas Lights -->
-  <div id="christmas-lights">
-    <div class="light red"></div>
-    <div class="light green"></div>
-    <div class="light yellow"></div>
-    <div class="light blue"></div>
-    <div class="light pink"></div>
-    <div class="light orange"></div>
-    <div class="light purple"></div>
-  </div>
-
- 
-
-  <!-- Navigation -->
-  <nav>
-    <div class="logo glow">CryptrixLegend</div>
-    <ul>
-      <li><a href="index.html">Home 🏠</a></li>
-      <li><a href="about.html">About Us 📖</a></li>
-      <li><a href="contact.html">Contact Us 📧</a></li>
-    </ul>
-    <button onclick="toggleMenu()">Menu</button>
-  </nav>
-
-  <!-- Main Section -->
-  <section>
-    <h1 class="glow">👋 Welcome to CryptrixLegend!</h1>
-    <p class="glow">🙏 This channel is all about gaming—mobile, PC, and everything in between. Honest gameplay, real reactions, and straightforward tech tips for everyone! 😀🎮</p>
-
-    <h2 class="glow">Here, I share:</h2>
-    <ul>
-      <li>🔥 Gameplay & Walkthroughs from trending games</li>
-      <li>📝 Simple tech tutorials anyone can follow</li>
-      <li>🎮 Honest reviews of games, gadgets, and apps</li>
-      <li>📰 Daily gaming news & updates</li>
-      <li>🔴 Live streams and special events with the CryptrixLegend community</li>
-    </ul>
-
-    <p class="glow">Drop a comment anytime — I’d love to hear which game or topic you want me to cover next. Don’t forget to subscribe and join the CryptrixLegendArmy! 💪</p>
-    <button onclick="window.open('https://youtube.com/@CryptrixLegendofficial')">Subscribe Now! 🔴</button>
-  </section>
-<!-- Time & Date Display -->
-<div id="time-display" class="glow" style="text-align:center; margin:2rem 0; font-size:1.5rem;">
-  ⏰ Time: <span id="time"></span> | 📅 Date: <span id="date"></span>
+<!-- LOADER -->
+<div id="loader">
+  <h1 class="loader-text">BMW</h1>
 </div>
 
- <!-- Ad Section -->
-<div class="ad-box">
-  <h2>💼 Advertise Here!</h2>
-  <p>🔥 Sponsored by ChatGPT — Get AI-powered assistance for your games, tech tips, and creative projects! 🤖💡</p>
-  <a href="https://chat.openai.com/" target="_blank">
-    <button>Visit ChatGPT</button>
+<!-- MENU -->
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+<nav id="menu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+
+<!-- SNOW -->
+<canvas id="snow"></canvas>
+
+<!-- CONTENT -->
+<section class="home">
+  <h1 class="glow">Welcome to CryptrixLegend</h1>
+  <p class="glow">
+    CryptrixLegend is a professional gaming channel where passion meets power.
+    We deliver high-quality gameplay, intense action, tips & legendary gaming moments.
+  </p>
+
+  <a href="https://youtube.com/@CryptrixLegendofficial" target="_blank">
+    <button class="subscribe-btn">Subscribe Now</button>
   </a>
-</div>
 
-  <script src="loader.js"></script>
-  <script src="snow.js"></script>
-  <script src="menu.js"></script>
+  <div class="ads">
+    <h2 class="glow">Your Advertise Here</h2>
+    <p class="glow">Promote your brand on CryptrixLegend Gaming Network</p>
+  </div>
+</section>
+
+<script src="menu.js"></script>
+<script src="loader.js"></script>
+<script src="snow.js"></script>
 </body>
 </html>
