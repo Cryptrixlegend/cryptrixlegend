@@ -1,181 +1,87 @@
-/* ======================== Reset ======================== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Arial', sans-serif;
-  background: #0a1a2f; /* Dark blue background */
-  color: #fff;
-  min-height: 100vh;
-  overflow-x: hidden;
+margin:0;
+font-family:Arial;
+background:#050b2c;
+color:white;
+overflow-x:hidden;
 }
 
-/* ======================== Text Glow ======================== */
-h1, h2, p, li, .glow, nav .logo {
-  text-shadow: 0 0 5px #ff3c00, 0 0 10px #ff3c00, 0 0 20px #ff3c00;
+.glow {
+text-shadow:0 0 10px #00f,0 0 20px #00f;
 }
 
-/* ======================== Loader ======================== */
-#loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #0a1a2f;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999; /* make sure it's on top */
-  opacity: 1;
-  transition: opacity 0.5s ease;
+.menu-btn {
+position:fixed;
+top:15px;
+left:15px;
+font-size:30px;
+cursor:pointer;
+z-index:1000;
 }
 
-}
-
-.loader-text {
-  font-size: 2.5rem;
-  color: #ff3c00;
-  font-weight: bold;
-  letter-spacing: 2px;
-  animation: pulse 1s infinite alternate;
-}
-
-@keyframes pulse {
-  0% { opacity: 0.3; transform: scale(1); }
-  100% { opacity: 1; transform: scale(1.1); }
-}
-
-/* ======================== Navigation ======================== */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #08112a;
-  padding: 1rem 2rem;
-  position: relative;
-  z-index: 1002;
+position:fixed;
+top:0;
+left:-100%;
+background:#000428;
+height:100%;
+width:220px;
+padding-top:60px;
+transition:0.4s;
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 1rem;
-  font-weight: bold;
-  transition: 0.3s;
+display:block;
+padding:15px;
+color:white;
+text-decoration:none;
 }
 
-nav a:hover {
-  color: #ff3c00;
-  text-shadow: 0 0 10px #ff3c00;
+nav.show {
+left:0;
 }
 
-nav .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  cursor: pointer;
+.home, .page {
+padding:100px 20px;
+text-align:center;
 }
 
-/* ======================== Snow Canvas ======================== */
-#snow-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 999;
+.subscribe-btn {
+padding:15px 30px;
+background:red;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+box-shadow:0 0 20px red;
 }
 
-/* ======================== Buttons ======================== */
-button {
-  background: #ff3c00;
-  color: #fff;
-  border: none;
-  padding: 12px 25px;
-  cursor: pointer;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  transition: 0.3s;
-  font-weight: bold;
-  text-shadow: 0 0 5px #fff;
+.ads {
+margin-top:50px;
+border:2px dashed cyan;
+padding:20px;
 }
 
-button:hover {
-  background: #ff6600;
-  transform: scale(1.05);
+#loader {
+position:fixed;
+width:100%;
+height:100%;
+background:black;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:2000;
 }
 
-/* ======================== Sections ======================== */
-section {
-  padding: 5rem 2rem;
-  max-width: 1000px;
-  margin: auto;
+.loader-text {
+font-size:60px;
+color:red;
+text-shadow:0 0 30px red;
 }
 
-/* ======================== Ad Box ======================== */
-.ad-box {
-  background: #08112a;
-  padding: 2rem;
-  border: 2px dashed #ff3c00;
-  text-align: center;
-  margin: 3rem 0;
-  font-size: 1.2rem;
-  text-shadow: 0 0 5px #ff3c00;
-}
-
-/* ======================== Lists ======================== */
-ul li {
-  margin: 1rem 0;
-  font-size: 1.2rem;
-}
-
-/* ======================== 🎄 Christmas Lights ======================== */
-#christmas-lights {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-  background: #08112a; /* Dark strip at top */
-  position: relative;
-  z-index: 1001;
-}
-
-.light {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #fff;
-  animation: blink 1.5s infinite alternate;
-}
-
-.light.red { background: #ff0000; }
-.light.green { background: #00ff00; }
-.light.yellow { background: #ffff00; }
-.light.blue { background: #00ffff; }
-.light.pink { background: #ff00ff; }
-.light.orange { background: #ff9900; }
-.light.purple { background: #9900ff; }
-
-@keyframes blink {
-  0% { opacity: 0.3; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.3); }
-  100% { opacity: 0.3; transform: scale(1); }
-}
-
-/* ======================== Responsive ======================== */
-@media (max-width: 768px) {
-  nav ul {
-    display: none;
-    flex-direction: column;
-    background: #08112a;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-  }
-  nav ul.active {
-    display: flex;
-  }
+canvas {
+position:fixed;
+top:0;
+left:0;
+pointer-events:none;
 }
