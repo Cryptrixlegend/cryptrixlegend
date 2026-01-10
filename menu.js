@@ -1,5 +1,3 @@
-function toggleMenu() {
-  const menu = document.querySelector('nav ul');
-  menu.classList.toggle('active');
+function toggleMenu(){
+document.getElementById("menu").classList.toggle("show");
 }
-<script src="time.js"></script>
