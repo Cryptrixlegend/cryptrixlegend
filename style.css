@@ -85,3 +85,32 @@ top:0;
 left:0;
 pointer-events:none;
 }
+.bmw-ad{
+margin:60px auto;
+padding:30px;
+max-width:350px;
+border:2px solid red;
+background:linear-gradient(145deg,#020024,#090979,#000);
+text-align:center;
+box-shadow:0 0 30px red;
+transition:0.4s;
+}
+
+.bmw-ad:hover{
+box-shadow:0 0 60px red;
+transform:scale(1.05);
+}
+
+.bmw-title{
+font-size:48px;
+color:white;
+letter-spacing:4px;
+text-shadow:0 0 20px red,0 0 40px red;
+}
+
+.bmw-text{
+margin-top:10px;
+font-size:16px;
+color:#ccc;
+text-shadow:0 0 10px red;
+}
