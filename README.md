@@ -4,6 +4,9 @@
 
 I build software that prioritizes speed, reliability, and clean architecture. Most of my work is centered around AI systems, backend engineering, and products that solve real problems without unnecessary complexity.
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=AI+Engineer;Software+Engineer;Building+Custom+AI+Systems;Optimizing+Performance+%26+Scalability" />
+</p>
 ---
 
 ## About Me
@@ -18,43 +21,49 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 
 ## Featured Projects
 
-### 🚀 Aurvexis AI
+## 🚀 Aurvexis AI
 
-> High-performance AI assistant built with a strong focus on ultra-low latency and fast response times.
+> A high-performance AI system built from the ground up with a custom inference engine focused on speed, reliability, and real-time responses.
 
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
-![AI](https://img.shields.io/badge/AI-Powered-blue?style=flat-square)
+![Architecture](https://img.shields.io/badge/Architecture-Custom-black?style=flat-square)
 ![Performance](https://img.shields.io/badge/Performance-Ultra--Low%20Latency-orange?style=flat-square)
+![Engine](https://img.shields.io/badge/Engine-Self%20Built-blue?style=flat-square)
 
-**Highlights**
+### Highlights
 
-- ⚡ Designed for extremely fast AI responses.
-- 🧠 Optimized inference pipeline for minimal latency.
-- 📈 Built with scalability and production deployment in mind.
+- ⚡ Custom AI engine designed and implemented from scratch.
+- 🧠 Optimized inference pipeline for extremely low response latency.
+- 🏗️ Modular architecture built for scalability and maintainability.
+- 🔄 Real-time processing with efficient resource utilization.
+- 🚀 Production-focused backend engineered for high throughput.
 
-**Tech Stack**
+### Tech Stack
 
-`Python` `FastAPI` `LLMs` `Docker` `Redis` `PostgreSQL`
+`Python` `PyTorch` `Custom AI Model` `Custom Inference Engine` `FastAPI` `Redis` `PostgreSQL` `Docker` `Linux`
 
 ---
 
 ### 🎵 VexoraOS
 
-> AI-powered music platform that detects user mood and plays personalized audio.
+> An intelligent music platform powered by a custom AI engine that understands user mood and delivers personalized listening in real time.
 
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
-![AI](https://img.shields.io/badge/Mood-AI%20Detection-purple?style=flat-square)
-![Music](https://img.shields.io/badge/Audio-Personalized-blue?style=flat-square)
+![Engine](https://img.shields.io/badge/Engine-Custom%20AI-blue?style=flat-square)
+![Mood](https://img.shields.io/badge/Mood-Real--Time%20Analysis-purple?style=flat-square)
+![Experience](https://img.shields.io/badge/Experience-Personalized-success?style=flat-square)
 
-**Highlights**
+### Highlights
 
-- 🎧 Detects user mood using AI.
-- 🎵 Delivers personalized music recommendations.
-- ⚙️ Built with responsiveness and a smooth user experience in mind.
+- 🎧 Custom AI engine analyzes user mood in real time.
+- 🎵 Dynamically adapts playlists based on emotional context and listening patterns.
+- ⚡ Optimized for instant recommendations with minimal latency.
+- 🧠 Built with a modular architecture for future AI capabilities and seamless scaling.
+- 🔄 Delivers a responsive, personalized music experience across sessions.
 
-**Tech Stack**
+### Tech Stack
 
-`Python` `TensorFlow` `OpenCV` `FastAPI` `React` `Node.js`
+`Python` `Custom AI Engine` `Custom Recommendation System` `FastAPI` `React` `Node.js` `Docker` `PostgreSQL`
 
 ---
 
@@ -63,11 +72,17 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 ### Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
 
 ---
+
+### Frameworks
 
 ### Frameworks
 
@@ -76,6 +91,8 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
 
 ---
 
@@ -86,6 +103,12 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 
 ---
 
@@ -97,6 +120,11 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)
 
 ---
 
