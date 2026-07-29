@@ -103,12 +103,12 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 # GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Cryptrixlegend&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cryptrixlegend&layout=compact&theme=transparent&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=transparent&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=Cryptrixlegend&theme=transparent&hide_border=true" />
 </p>
 
 ---
@@ -116,18 +116,15 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 # Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-compact&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cryptrixlegend&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" />
 </p>
 
 ---
 
 # Connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel)](https://YOUR_PORTFOLIO)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail)](mailto:YOUR_EMAIL)
-
----
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Cryptrixlegend)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x)](https://x.com/CRYPTRIXLEGEND)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail)](mailto:tanishbaliyan07@gmail.com)
 
 > *"Fast software. Clean architecture. Reliable systems."*
