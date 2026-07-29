@@ -65,6 +65,8 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 
 `Python` `Custom AI Engine` `Custom Recommendation System` `FastAPI` `React` `Node.js` `Docker` `PostgreSQL`
 
+> 🔧 Actively evolving with new features, better performance, and smarter AI capabilities coming soon.🚧
+
 ---
 
 # Tech Stack
@@ -82,7 +84,6 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 
 ---
 
-### Frameworks
 
 ### Frameworks
 
@@ -99,13 +100,10 @@ I build software that prioritizes speed, reliability, and clean architecture. Mo
 ### AI / ML
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
